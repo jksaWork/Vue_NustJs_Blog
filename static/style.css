@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+*{
+	font-family: 'Cairo', sans-serif;
+
+}
+.logo{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	max-width:90%;
+	margin: auto;
+}
+header{
+	/* background: #20c997;/ */
+}
+ nav{
+	background: #fff;
+	color: #000;
+	box-shadow: -1px 8px 13px 0px #e1e0e0;
+	height: auto;
+	padding: 15px;
+	position: sticky;
+}
+ul , li , .nav-link , li a {
+	color:#111;
+}
+footer{
+	margin-top: 150px;
+	padding: 20px;
+	background: #3f3f3f;
+	color:#fff;
+}
+.footer_grid{
+	display: grid;
+    grid-template-columns: auto auto;
+}
+.footer_grid ul li{
+	display: inline-block;
+	color: #fff;
+}
+.footer_grid ul li a h6{
+	color: #fff
+}
+.copy_right{
+	text-align: center;
+}
+.text_center{
+	text-align: center;
+}
+.login_form{
+	padding: 20px;
+}
+.internal-user{
+	padding:30px;
+}
+.text-center{
+	padding: 10px;
+}
+.main_content{
+	margin-top: 50px;
+}
+.content{
+	margin-top: 10px;
+}
+.login_card{
+  margin-top: 200px;
+	width: 60%;
+	box-shadow: -1px 8px 13px 0px #e1e0e0;
+	margin: auto;
+  padding: 50px;
+	/* padding: 20px; */
+}
+@media (max-width: 992px){
+	.login_card{
+	width:90%;
+	overflow: hidden;
+}
+}
+
+.form_grid{
+display: grid;
+grid-template-columns: minmax(200px, auto) 150px ;
+grid-row-gap:10px;
+}
+.form_grid input {
+border-radius: 2px;
+width: 100%;
+border-left:none;
+border-right: none;
+border-top: none;
+}
+.login_btn{
+	margin-top: 20px;
+}
+.login_btn button , .login_btn a {
+	background: #3f3f3f;
+	color: #fff;
+	padding: 7px 20px;
+}
+.privcy_container{
+	padding: 30px;
+	width:95%;
+	margin:auto;
+	box-shadow: -1px 8px 13px 0px #e1e0e0;
+}
+.custom_class{
+	    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    /* height: 30vh; */
+    width: 100%;
+    color: #fff;
+    border-radius: 3px;
+}
